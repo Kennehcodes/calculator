@@ -1,0 +1,32 @@
+/*css for all flex boxes*/
+.flex {
+    display: flex;
+}
+
+/*CSS For header*/
+.header{
+    background-color: green;
+    justify-content: center;
+}
+/*css for main container main tag */
+.container {
+    background-color: orange;
+    justify-content: space-evenly;
+}
+/*css for calculator div*/
+.calculator {
+    background-color: red;
+}
+/*css for notepad div*/
+.notepad{
+    background-color: pink;
+}
+
+/*css for media queries*/
+
+@media (max-width: 600px) {
+    /*css for adjusting the main container to have the notepad and calculator stacked in smaller screens*/
+    .container {
+        flex-direction: column;
+        }    
+}
